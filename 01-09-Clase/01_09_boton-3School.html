@@ -1,0 +1,30 @@
+<!-- Ejercicio sacado de https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_show -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    /* link imagen a su web */
+        var apagar ="https://www.w3schools.com/js/pic_bulboff.gif"; 
+        var encender="https://www.w3schools.com/js/pic_bulbon.gif";
+    </script>
+</head>
+<body>
+<div align="center">
+    <h2>¿Qué podemos hacer con JavaScript?</h2>
+    <p>JavaScript podmeos modificar elementos de HTML.</p>
+    <p id="demo" style="display:none">Imprime por pantalla gracias a JavaScript!</p>
+<!-- boton -->
+    <button type="button" onclick="document.getElementById('demo').style.display='block'">Tocame</button>
+    <br>
+    <br>
+    <p>JavaScript puede cambiar valores de los atributos de HTML.</p>
+    <p>En este caso JavaScript cambia valor de src (source) atributo de la imagen.</p>
+    <button onclick="document.getElementById('myImage').src=encender">Encender</button>
+    <img id="myImage" src="https://www.w3schools.com/js/pic_bulboff.gif" style="width:100px">
+    <button onclick="document.getElementById('myImage').src=apagar">Apagar</button>
+</div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!-- varibales comparativas y manejo de caracter como sacar posicion etc
+If condicional -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores Relacional === estricto</title>
+    <script type="text/javascript"> 
+    //comparacion == con === estricto
+        var a=5; /* int */
+        var b="5";  /* char */
+        var x="Trescientoocho";
+    /* COMPARACION ESTRICTO */
+        if(a === b){  /* comparacion valor y tipo variable que es */
+            document.writeln(a+" y "+b+" son iguales en valor y tipo");
+        }else{
+            document.writeln(a+" y "+b+" no son iguales en valor y tipo");
+        }
+        document.writeln("<br>") /* salto linea */
+    
+        /* COMPARACION NORMAL */
+        if(a == b){ /* comparacion valor*/
+            document.writeln(a+" y "+b+" son iguales en valor.");
+                            document.writeln("<br>") /* salto linea */
+            document.writeln("Convertimos variable b y le sumamos a="+a+", resultado: "+(a+(parseInt(b)))); /* convierte string a entero */
+                            document.writeln("<br>") /* salto linea */
+            document.writeln("convertimo guardado en variable a como String "+a.toString()); /* convierte a String "a" */
+                            document.writeln("<br>") /* salto linea */
+            document.writeln(x+" tiene: "+x.length+" caracteres."); /* cuenta los caracter que ocupa sin o con espacio */
+                            document.writeln("<br>") /* salto linea */
+            var n = 1; /* lo utilizamos para posicion */
+            document.writeln(x+" con charAt mostrar posicion "+n+" esta la letra: "+x.charAt(n)); /* muestra letra posicion indicada - empieza 0.1.2.3 */
+
+        }else{
+            document.writeln(a+" y "+b+" no son iguales en valor.");
+        }
+    </script>
+</head>
+<body>
+    <!-- VACIO -->
+</body>
+</html>
