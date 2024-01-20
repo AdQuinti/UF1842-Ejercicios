@@ -1,0 +1,12 @@
+body {
+    background-color:wheat;
+}
+table {
+    border-style: groove;
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+}
+td {
+    width: 6em;
+}
