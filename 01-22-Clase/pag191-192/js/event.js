@@ -4,10 +4,11 @@ image2 = new Image();
 image2.src = "image/heading2.jpg";
 
 function mouseOver (e) {
-    if (!e)
-        var e = window.event;
+    if (!e) {
+        let e = window.event;
+    }
 
-    var target = getTarget (e);
+    let target = getTarget (e);
             
             // cambio de imagen cuando el raton se posiciona encima de la imagen de la cabecera
     if (target.id == "heading") {
@@ -24,7 +25,7 @@ function mouseOut (e) {
     if (!e)
         var e = window.event;
 
-    var target = getTarget (e);
+    let target = getTarget (e);
             
 // imagen original evento oneMouseOut imagen cabecera
     if (target.id == "heading") {
