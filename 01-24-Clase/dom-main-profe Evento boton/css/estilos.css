@@ -1,0 +1,41 @@
+/* Estilos generales para el cuerpo del documento */
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+/* Estilos para los encabezados h1 y h2 */
+h1, h2{
+   
+    font-size: 50px;/* Tamaño de letra */
+    font-weight: 900;/* Grosor de la fuente (negrita) */
+}
+/* Estilos adicionales para h2 */
+h2{
+    margin-bottom: 100px;/* Margen inferior para separar elementos */
+    font-size: 35px;/* Tamaño de letra específico para h2 */
+}
+
+/* Estilos para los párrafos */
+p{
+    font-size: 40px; /* Tamaño de letra */
+    margin-left: 80px; /* Margen izquierdo para separar del borde izquierdo */
+    margin-bottom: -30px;/* Margen inferior negativo para ajustar espacio */
+    font-weight: 400;/* Grosor de la fuente */
+}
+/* Estilos específicos para elementos con clase 'parrafo' */
+.parrafo{
+    color: green;/* Color del texto */
+}
+/* Estilos para los botones */
+button{
+    font-size: 20px;/* Tamaño de letra */
+    margin-left: 80px; /* Margen izquierdo para separar del borde izquierdo */
+    margin-bottom: -30px;/* Margen inferior negativo para ajustar espacio */
+    font-weight: 400;/* Grosor de la fuente */
+}
+/* Estilos para los campos de entrada de texto */
+input{
+    font-size: 20px;/* Tamaño de letra */
+    margin-left: 80px;/* Margen izquierdo para separar del borde izquierdo */
+    margin-bottom: -30px;/* Margen inferior negativo para ajustar espacio */
+    font-weight: 400; /* Grosor de la fuente */
+}
