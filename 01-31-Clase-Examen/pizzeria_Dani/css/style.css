@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+body{
+    text-align: center;
+    /* degradado */
+    background: linear-gradient(to top, #d48a1c 45%, #FFFFFF 45%);
+}
+h2{
+    color:whitesmoke;
+    text-align: center;
+    font-family: 'Monoton', 'Grape Nuts';
+}
+p{
+    color:#FFFFFF;
+    text-align: center;
+    font-family: 'Grape Nuts', 'Monoton';
+    font-size: 1.5em;
+}
+#miImagen{
+    width: 150px;
+    height: 180px;
+}

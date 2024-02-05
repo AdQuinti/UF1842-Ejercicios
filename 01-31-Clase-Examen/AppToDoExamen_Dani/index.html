@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>ToDoList-byAdQuinti</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/estilos.css" rel="stylesheet">
+    </head>
+    <body>
+<!-- TITULO -->
+        <dd>To Do List</dd> <!-- se cambia etiqueta h1 a dd para darle ESTILO -->
+<!-- contenedor INPUT -->
+        <form action="#" id="userInput">
+            <input type="text" placeholder="Escribe tarea aquí... " id="inputText" autofocus>
+            <input type="submit" value="✔" id="addBtn"> <!-- boton -->
+        </form>
+<!-- contenedor Tareas -->
+        <div id="list" class="list-container">
+
+        </div>
+<!-- contenedor Estadistica -->
+        <div id="stats" class="stats">
+            <!-- Tareas pendientes: 1        Tareas completadas: 2 -->
+        </div>
+    <footer>
+        <p>Desarrollo de Aplicaciones con Tecnología Web | Antonio Daniel | 31/01/2024</p>
+        <p id="fecha"></p>
+    </footer>
+<!-- ZONA JScript-->
+    <script src="js/ToDo.js"></script>
+    <script src="js/date.js"></script> <!-- FOOTER - fecha -->
+    </body>
+</html>
