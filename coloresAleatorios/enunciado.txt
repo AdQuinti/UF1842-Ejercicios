@@ -1,0 +1,26 @@
+Proyecto: Generador de Colores Aleatorios
+
+Descripción:
+En este proyecto, desarrollarás una aplicación web que generará colores aleatorios en formato hexadecimal al hacer clic en un botón. Cada vez que se presione el botón, se generará un color hexadecimal único y se actualizará el color de fondo de la página con ese color generado. Además, se mostrará el código hexadecimal del color generado para que el usuario lo vea.
+
+Características:
+
+La página mostrará un color hexadecimal generado inicialmente.
+Habrá un botón en la página con el texto "Cambiar el Color".
+Al hacer clic en el botón, se generará un nuevo color hexadecimal aleatorio.
+El color de fondo de la página se actualizará con el nuevo color generado.
+Se mostrará el código hexadecimal del color generado en la página.
+Objetivos Adicionales:
+
+Permitir al usuario copiar el código hexadecimal del color generado haciendo clic en él.
+Agregar animaciones o transiciones para suavizar el cambio de color.
+Implementar un esquema de colores complementarios para resaltar el texto del código hexadecimal.
+Requisitos Técnicos:
+
+Utiliza HTML, CSS y JavaScript para desarrollar la aplicación.
+Implementa la generación de colores aleatorios en JavaScript.
+Asegúrate de que la página sea responsive y se vea bien en dispositivos móviles y de escritorio.
+Entregables:
+
+Archivos HTML, CSS y JavaScript que componen la aplicación.
+Documentación clara que explique cómo funciona la aplicación y cómo se implementaron las características adicionales.

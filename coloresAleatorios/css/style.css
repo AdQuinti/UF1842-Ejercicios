@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    background-color: #FFFFFF; /* color predeterminado */
+    text-align: center;
+    font-family: 'Grape Nuts', Verdana, sans-serif;
+    font-size: large; /* font-size: xx-small | x-small | small | medium | large | x-large | xx-large */
+}
+/* centramos los elemento de forma vertical y horizontalmente */
+.centrar-elementos {
+    display: flex; /* convierte elementos del contenedor en flex item y podemos controlar situación */
+    justify-content: center;
+    align-items: center;
+}
+/* contenedor */
+#contenedor {
+    height: 270px;
+    width: 190px;
+    background-color: white;
+    border-radius:  12px;
+    box-shadow:  0  0  70px #171717; /* desplazamiento horizontal vertical desenfoque color-sombra */
+    /*border-radius:  50%;
+    border: 5px dotted #a9a9a9; /* solid dotted dashed */
+    flex-wrap: wrap;
+    flex-direction: column; /* uno debajo de otro */
+}
+/* Estilo del FOOTER */
+footer {
+    position: fixed;
+    font-family: Verdana, sans-serif;
+    font-size: x-small;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+/* ETIQUETAS CLASS - ID */
+#mi-imagen {
+    width: 8em;
+    height: 9em;
+}
